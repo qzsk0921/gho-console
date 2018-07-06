@@ -1,0 +1,20 @@
+//globl transition css
+
+/*fade*/
+
+.breadcrumb-enter-active {
+  transition: all .7s;
+  position: absolute;
+}
+
+.breadcrumb-leave-active {
+  transition: all .3s;
+  position: absolute;
+}
+
+.breadcrumb-enter,
+.breadcrumb-leave-to {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
